@@ -1,0 +1,52 @@
+.header_wrap {
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  color: white;
+
+  width: 100vw;
+  background: #414040;
+
+  .header {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      font-family: 'Kanit', sans-serif;
+      font-size: 32px;
+      color: #c5c5c5;
+    }
+
+    .menu_wrap {
+      width: 60%;
+      font-family: 'Noto Sans', sans-serif;
+      nav {
+        display: flex;
+
+        ul {
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+          list-style-type: none;
+
+          a{
+            color: #c5c5c5;
+            text-decoration: none;
+            transition: color 0.5s ease-in-out;
+          }
+
+          a:hover{
+            color: #fcfcfc;
+          }
+
+        }
+      }
+    }
+
+  }
+}

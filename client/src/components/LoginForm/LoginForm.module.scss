@@ -1,0 +1,120 @@
+.wrap {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Noto Sans', sans-serif;
+  color: #c5c5c5;
+
+  .loginForm {
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+
+      .input {
+        width: 90%;
+
+        input {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 15px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          font-family: 'Noto Sans', sans-serif;
+          font-size: 18px;
+        }
+
+        input:focus {
+          outline: none;
+          box-shadow: none;
+        }
+
+        label {
+          font-family: 'Noto Sans', sans-serif;
+          margin-bottom: 15px;
+        }
+      }
+
+      .passwordInput {
+        display: flex;
+        align-items: center;
+        position: relative; /* Добавляем позиционирование */
+        flex-direction: column;
+        label {
+          font-family: 'Noto Sans', sans-serif;
+          margin-bottom: 15px;
+        }
+
+        input {
+          margin-left: 25px;
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 15px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          font-family: 'Noto Sans', sans-serif;
+          font-size: 18px;
+        }
+
+        .toggleButton {
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+          padding: 4px;
+          display: flex;
+          align-items: center;
+          position: absolute; /* Добавляем позиционирование */
+          right: -15px; /* Выравниваем кнопку по правому краю */
+          top: 60%; /* Выравниваем кнопку по вертикали */
+          transform: translateY(-50%); /* Сдвигаем кнопку на половину своей высоты */
+
+          .icon {
+            font-size: 18px;
+          }
+        }
+      }
+
+      .button {
+        width: 100%;
+
+        button {
+          width: 40%;
+          padding: 10px 10px;
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-family: 'Noto Sans', sans-serif;
+
+        }
+
+        button:hover {
+          background-color: #0056b3;
+        }
+      }
+
+      p {
+        font-size: 22px;
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #414040;
+  color: #c5c5c5;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+
+  .footer_content {
+    width: 100%;
+    max-width: 1440px;
+
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+      width: 30%;
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+
+      a {
+        text-decoration: none;
+        color: #c5c5c5;
+        transition: color 0.4s ease-in-out;
+      }
+
+      a:hover {
+        color: #fcfcfc;
+      }
+    }
+  }
+}

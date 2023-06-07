@@ -1,0 +1,12 @@
+.postPageWrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+  height: 100vh;
+  background-color: #262626;
+
+  .contentWrapper {
+    display: flex;
+    height: 100%;
+  }
+}
